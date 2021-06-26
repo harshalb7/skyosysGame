@@ -2,14 +2,13 @@ let yourScore = 0;
 let compuScore = 0;
 const yourScore_p = document.getElementById('your-score');
 const CompScore_p = document.getElementById('computer-score');
-const scoreBoard = document.querySelector('.score-board');
-const main1 = document.querySelector('#main1');
-const selection1 = document.querySelector('#selection1');
-const user_select = document.querySelector('#user_select');
-const computer_select = document.querySelector('#computer_select');
-const play_again = document.querySelector('#reset');
-const reset_game = document.querySelector('#restgame');
-const game_result = document.querySelector('#result');
+const main1 = document.getElementById('main1');
+const selection1 = document.getElementById('selection1');
+const user_select = document.getElementById('user_select');
+const computer_select = document.getElementById('computer_select');
+const play_again = document.getElementById('reset');
+const reset_game = document.getElementById('restgame');
+const game_result = document.getElementById('result');
 
 
 function you_win(user_choice, computerChoice){
